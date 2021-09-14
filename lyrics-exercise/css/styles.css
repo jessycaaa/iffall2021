@@ -1,0 +1,35 @@
+p { 
+    color:rgb(57, 201, 134);
+    font-size: 18px;
+    font-family: monospace;
+    font-weight:normal;
+    margin-right: 150px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+h1 {
+    color:coral;
+    font-size: 45px;
+    font-family:monospace;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+
+h2 {
+    color:rgb(162, 202, 97);
+    font-size:32px;
+    font-family:monospace;
+    font-weight: lighter;
+    margin-right: 150px;
+    margin-left: 80px;
+    text-align: center;
+}
+body {
+    background-image: url("https://s3.amazonaws.com/sndb/uploads/photo/image/42997/large_Snapchat-67881218.jpg");
+    background-color: #383737;
+   }
