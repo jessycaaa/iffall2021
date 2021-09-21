@@ -1,0 +1,102 @@
+
+html {font-family:'Ubuntu', sans-serif;} 
+
+
+h1 {
+    color:black;
+    font-size:40px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bolder;
+    margin-right: 150px;
+    margin-top: 3em;
+    text-align: left;
+
+}
+
+h3 {
+    color:blueviolet;
+    font-size:18px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: normal;
+    margin-right: 150px;
+    text-align: left;
+}
+
+section {
+    margin-top: 3em;
+    margin-left: 80px;
+
+}
+
+.description {
+    color:rgb(253, 135, 89);
+    font-size:15px; 
+    font-family:'Ubuntu', sans-serif; 
+}
+
+
+.light {
+    font-weight: lighter;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.normal {
+    letter-spacing: normal;
+}
+
+.wide {
+    letter-spacing:.3em;
+}
+
+.tight {
+    letter-spacing: -0.06em;
+}
+
+.none {
+    text-decoration:none;
+}
+
+.underline {
+    text-decoration:underline;
+}
+
+.line-through {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.low {
+    text-transform: lowercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+p {
+    color:blueviolet;
+    font-size:18px;
+    font-family:'Ubuntu', sans-serif;
+    
+}
+
+
+
+
