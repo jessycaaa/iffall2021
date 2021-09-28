@@ -1,0 +1,66 @@
+h1 {
+    color:rgb(107, 167, 107);
+    font-size:40px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bolder;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: left;
+
+}
+
+h2 {
+    color:rgb(107, 167, 107);
+    font-size:30px;
+    font-family:'Ubuntu', sans-serif;
+    margin-left: 150px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+h3 {
+    color:rgb(27, 27, 27);
+    font-size:20px;
+    font-family:'Ubuntu', sans-serif;
+    margin-left: 150px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+h4 {
+    color:rgb(27, 27, 27);
+    font-size: 18px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight:normal;
+    margin-left: 150px;
+    margin-right: 400px;
+    text-align: left;
+}
+
+
+p {
+    color:rgb(27, 27, 27);
+    font-size:16px;
+    font-family:'Ubuntu', sans-serif;
+    margin-left: 150px;
+    margin-right: 500px;
+    text-align: left;
+}
+
+li {
+    color:rgb(27, 27, 27);
+    font-size:16px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: normal;
+    margin-left: 150px;
+    margin-right: 400px;
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
