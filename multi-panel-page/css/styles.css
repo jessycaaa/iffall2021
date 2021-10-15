@@ -1,0 +1,131 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin: 0 0 -4px 0;
+}
+
+p {
+    font-size: 13.4pt;
+    line-height: 19pt;
+    display: block; 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: -15px;
+    padding: 0 0 5px 0;
+}
+
+.Title {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-image:url(../img/sunkissed.jpg);
+    background-size:cover;
+    text-align:center;
+}
+
+header .Title {
+    padding:150px 0 150px 0;
+}
+
+header h1 { 
+    font-size:80px;
+}
+
+section .Title { 
+    padding:40px 0 45px 0;
+}
+
+.ocean {
+    width:400px;
+    height:250px;
+    font-size: 13.5pt;
+    line-height: 20pt;
+    object-fit:cover;
+    float:right;
+    padding:40px 0 40px 40;
+}
+
+.Body {
+    background-color:rgb(252, 222, 183);
+}
+
+.Body h1 {
+    text-align:center;
+    font-size:40px;
+}
+
+.love {
+    width:200px;
+    height:150px;
+    object-fit:cover;
+    float:left;
+    padding:0 15px 0 0;
+}
+
+.Images {
+    background-color: rgb(253, 199, 127);
+}
+
+.Images h1 {
+    text-align:center;
+    font-size:40px;
+}
+
+h3 {
+    margin:0 75px 0 0;
+    padding:12px 0 0 0;
+    line-height:3px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30pt;
+    margin-top: 40px;
+}
+
+.Images li { 
+    width:45%;
+    display:inline-block;
+    padding:10px 0 0 0;
+    min-inline-size:475px;
+    margin-top:20px;
+}
+
+.Images li p {
+    font-size:18px;
+    padding:0 50px 0 50px;
+    margin-top:10px;
+}
+
+.Final { 
+    background-color:rgb(252, 222, 183);
+}
+
+.Final h1 {
+    text-align:center;
+    font-size:40px;
+    padding:7px 0 0 0;
+}
+
+.Final p {
+    width:75%;
+    text-align:center;
+    font-size: 26px;
+    padding:33px 0 70px 0;
+    margin:0 auto;
+    line-height:140%;
+}
+
+footer { 
+    padding:10px 0 50px 0;
+    background-color:rgb(253, 199, 127);
+    font-size:17px;
+}
