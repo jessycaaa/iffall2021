@@ -1,0 +1,260 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #444;
+    --overlay-color: rgba(255, 255, 255, 0.8);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'catamaran', san-serif;
+    font-weight:lighter;
+    line-height: 1.6;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.3;
+    font-weight: normal;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*  NAVIGATION BAR START */
+.container {
+    max-width: 1100px;
+    margin:auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.navbar {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    
+}
+
+.nav .logo {
+    font-size: 1rem;
+}
+
+.navbar .nav {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.navbar .a a:hover {
+    padding: 0, 1rem;
+    color: #555;
+}
+
+
+/*  SECTION A */
+.section-a {
+    margin: 2rem 0;
+}
+.section-a .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:5rem;
+}
+
+.section-a h1 {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.section-a p {
+    margin: 1rem 0;
+}
+
+.image {
+    border-radius: 3rem;;
+}
+
+/* SECTION B */
+.section-b {
+    position: relative; 
+    background: url(../imgs/plate.jpg) no-repeat bottom center/cover;
+    height: 400px;
+}
+
+.section-b-inner h3 {
+    font-size: 1rem;
+}
+
+.section-b-inner h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.section-b-inner p {
+    font-size: 1.1 rem;
+    margin-top: 1rem;
+    font-weight:normal;
+}
+
+.section-b-inner {
+    color: black;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+}
+
+/*  SECTION C */
+.section-c {
+    margin: 5rem 0;
+}
+.section-c .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:3rem;
+}
+
+.section-c h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.section-c h3 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+.section-c h4 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin-top: 1.3rem;
+    font-weight: bolder;
+    /* font-style: italic; */
+}
+
+
+.section-c p {
+    margin: 1rem 0;
+}
+
+/* SECTION D */
+
+
+.container .twoVersions {
+    font-size: 1.5rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.section-d-inner h1 {
+    font-size: 5rem;
+}
+
+.section-d-inner .innerContainer h3 {
+    font-size: 1.1rem;
+    font-weight:bolder;
+}
+.section-d-inner p {
+    font-size: 1.1 rem;
+    margin-top: 1rem;
+    font-weight:normal;
+}
+
+.innerContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:3rem;
+}
+
+.container h3 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.container .section-d-inner .innerContainer .ol .li {
+    Margin: 1.3rem;
+}
+/* 
+.section-d-inner {
+    color: black;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+} */
+
+
+/* Utilities */
+/* button: */
+/* .btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.8rem, 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: var(--secondary-color);
+} */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--overlay-color);
+}
+
+
+
+
