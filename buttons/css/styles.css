@@ -62,7 +62,7 @@ a#btn_amazon {
     margin: auto;
     margin-top: 75px;
     padding-top: 12px;
-    background-color: #5c5c5c;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     font-size: 50px;
@@ -256,7 +256,7 @@ a#btn_ideo{
     display: inline-block;
     box-sizing: border-box;
     border-radius:25px;
-    margin-top: 95px;
+    margin-top: 90px;
     margin-left: -20px;
     padding: 15px 40px 0 60px;
     font-size: 35px;
@@ -312,7 +312,7 @@ a#btn_lyft {
     box-sizing: border-box;
     border-radius: 70px;
     margin: auto;
-    margin-top: 110px;
+    margin-top: 90px;
     padding: 10px 40px 60px 40px;
     background-color: #fff;
     color: #ff00bf;
@@ -330,7 +330,7 @@ a#btn_newyorker {
     display: block;
     width:200px;
     height:auto;
-    margin-top:85px;
+    margin-top:90px;
     margin-left:30px;
     font-family: 'Belleza', sans-serif;
     font-size: 25px;
@@ -348,7 +348,7 @@ a#btn_newyorker:hover {
 
 }
 
-/* NIKE */
+
 a#btn_moo {
     display: block;
     width:200px;
@@ -359,8 +359,8 @@ a#btn_moo {
     font-size: 50px;
     text-decoration: none;
 
-    color:rgb(35, 85, 57);
-    transition: all .5s;
+    color:rgb(30, 126, 72);
+    transition: all 1.5s;
 }
 a#btn_moo:hover {
     color:#fff;
@@ -373,7 +373,7 @@ a#btn_nike{
     display:inline-block;
     box-sizing:border-box;
     border-radius: 50px;
-    margin-top:90px;
+    margin-top:70px;
     margin-bottom:auto;
     transition: all .5s;
     text-decoration:none;
@@ -393,13 +393,13 @@ a#btn_garden {
     font-family:'Playfair Display', serif;
     display:inline-block;
     box-sizing:border-box;
-    padding:10px 25px 18px 20px;
+    padding:10px 25px 10px 20px;
     border-radius: 50px;
     margin-top:90px;
     margin-bottom:auto;
     transition: all .5s;
     text-decoration:none;
-    font-size: 16px;
+    font-size: 20px;
     color:#6dac49;
     font-weight:bold;
     letter-spacing: 1px;
@@ -418,8 +418,8 @@ a#btn_garden:hover {
 
 a#btn_tonightshow{
     display: inline-block;
-    height: 50px;
-    width: 200px;
+    height: 30px;
+    width: 150px;
     box-sizing: border-box;
     border-radius: 5px;
     margin: auto;
@@ -437,7 +437,8 @@ a#btn_tonightshow{
 }
 
 a#btn_tonightshow:hover {
-
+    height:50px;
+    width: 200px;
 }
 
 a#btn_instagram {
@@ -462,6 +463,86 @@ a#btn_instagram:hover {
     
 }
 
+#btn_harry {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 100px;
+    color: rgb(68, 0, 255);
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 10px 40px 15px 40px;
+
+}
+
+#btn_harry span {
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+
+#btn_harry:hover {
+    background-color: rgb(68, 0, 255);
+    color: white;
+    transition: .5s;
+}
+
+
+/* MK */
+#btn_mk img {
+    width: 130px;
+    margin-top: 80px;
+}
+
+#btn_mk img:hover {
+    box-shadow: 0 6px 0 0 black;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+
+/* TESLA */
+
+.tesla-img {
+    width:100px;
+    height:auto;
+    margin-left:80px;
+    margin-right:90px;
+}
+
+a#btn_tesla {
+    display:inline-block;
+    box-sizing:border-box;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 8px;
+    transition: all .5s;
+}
+
+a#btn_tesla:hover {
+    opacity: 0.5;
+}
 
 
 
+.npr-img {
+    width:150px;
+    height:auto;
+    margin-top:95px;
+    transition: all 0.5s;
+}
+
+.npr-img:hover {
+    width:230px;
+    height:50px;
+}
