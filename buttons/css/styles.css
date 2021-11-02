@@ -1,0 +1,467 @@
+
+/* Universal START */
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* Universal END */
+
+/* APPLE */
+a#btn_apple {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .8s;
+}
+
+a#btn_apple:hover {
+    background-color: #ffffff; 
+    color: #000; 
+}
+
+
+/* AMAZON */
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+    background-color: #5c5c5c;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    transition: all .4s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fff;
+    border:3px solid #fc9a18;
+    color:rgb(29, 29, 29);
+}
+
+
+/* TWITTER */
+a#btn_twitter {
+    display: inline-block;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 30px 0 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 99, 172);
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+    /* Permalink - use this to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    /* background: rgb(46,191,236); /* Old browsers */
+    /* background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); IE6-9 fallback on horizontal gradient */ 
+    background-color: #56cdf1;
+    color:ivory;
+    transition: all .3s;
+    /* animation-duration: 4s; */
+}
+
+/* INDIEGOGO */
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(to right, #953aca 0%, #e22dd9 51%, #cc1754 100%);
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+
+/* COCACOLA  */
+a#btn_cocacola {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:60px;
+    transition: all .8s;
+}
+
+.cocacola-img {
+    width:120x;
+    height:120px;
+}
+
+a#btn_cocacola:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:100px;
+    width:140px;
+    height:140px;
+    margin-top:50px;
+    border: 3.5px solid rgb(244, 0, 0);
+}
+
+/* IBM */
+a#btn_ibm {
+    display: inline-block;
+    box-sizing: border-box;
+    width:auto;
+    height:auto;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 85px;
+    padding: 10px 40px 0 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+    font-size: 55px;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+    font-style: normal;
+    transition: all .3s;
+}
+
+a#btn_ibm:hover {
+    color: rgb(62, 100, 226);
+    letter-spacing: 10px;
+    transition: all .5s;
+
+}
+
+/* SPOTIFY */
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+/* a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius:25px;
+    margin:auto;
+    margin-top: 110px;
+    padding: 15px 40px 0 60px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    font-size: 22px;
+    color:floralwhite;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    text-justify: center;
+} */
+
+a#btn_spotify:hover {
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* IDEO */
+a#btn_ideo{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius:25px;
+    margin-top: 95px;
+    margin-left: -20px;
+    padding: 15px 40px 0 60px;
+    font-size: 35px;
+    color:rgb(255, 174, 24);
+    font-family: 'Montserrat', sans-serif;
+    transition: all .5s;
+    text-justify: center;
+    text-decoration:none;
+}
+
+
+a#btn_ideo:hover {
+    font-weight:bold;
+    text-decoration:overline;
+    letter-spacing: 10px;
+}
+
+
+/* SAMSUNG */
+a#btn_samsung {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    border: 1.5px solid #000;
+    color: #fff;
+    transition: all .9s;
+}
+
+.samsung-img {
+    display: block;
+    margin-left: -10px;
+    margin-right: auto;
+    width: auto;
+    width: 120%;
+    margin-top: -56px;
+    color:rgb(255, 255, 255);
+}
+
+a#btn_samsung:hover {
+    border: 0px;
+    background: linear-gradient(to right, #b0b0f5 0%, #7ec8fd 51%, #7474f8 100%);
+}
+
+/* LYFT */
+a#btn_lyft {
+    display: inline-block;
+    height: 1px;
+    box-sizing: border-box;
+    border-radius: 70px;
+    margin: auto;
+    margin-top: 110px;
+    padding: 10px 40px 60px 40px;
+    background-color: #fff;
+    color: #ff00bf;
+    font-size: 16px;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover {
+    border: 1.5px solid #ff00bf;
+    color:#ff00bf;
+}
+
+/* THE NEW YORKER */
+a#btn_newyorker {
+    display: block;
+    width:200px;
+    height:auto;
+    margin-top:85px;
+    margin-left:30px;
+    font-family: 'Belleza', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color:#000;
+    transition: all .5s;
+}
+
+a#btn_newyorker:hover {
+    font-size: 27px;
+    text-transform: uppercase;
+    background-color:#ffe0b7;
+    border-radius: 5px;
+    border-style: dotted;
+
+}
+
+/* NIKE */
+a#btn_moo {
+    display: block;
+    width:200px;
+    height:auto;
+    margin-top:85px;
+    margin-left:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+
+    color:rgb(35, 85, 57);
+    transition: all .5s;
+}
+a#btn_moo:hover {
+    color:#fff;
+    border-radius:100px;
+    background: linear-gradient(to right, #436d3e 0%, #228a56 51%, #42b351 100%);
+}
+
+/* NIKE */
+a#btn_nike{
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin-top:90px;
+    margin-bottom:auto;
+    transition: all .5s;
+    text-decoration:none;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color:#000000;
+}
+
+a#btn_nike:hover{
+    border: 5px solid white;
+    background-color:#ff8c08;
+}
+    
+/* BOTANICAL GARDEN */
+
+a#btn_garden {
+    font-family:'Playfair Display', serif;
+    display:inline-block;
+    box-sizing:border-box;
+    padding:10px 25px 18px 20px;
+    border-radius: 50px;
+    margin-top:90px;
+    margin-bottom:auto;
+    transition: all .5s;
+    text-decoration:none;
+    font-size: 16px;
+    color:#6dac49;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+a#btn_garden:hover {
+    font-size: 16px;
+    text-decoration:none;
+    background-color:#6dac49;
+    letter-spacing: 2px;
+    color: #fff;
+    /* linear-gradient(to right, #436d3e 0%, #228a56 51%, #42b351 100%); */
+    border-radius: 100px;
+}
+
+
+a#btn_tonightshow{
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    transition: all .9s;
+}
+.tonightshow {
+    display: block;
+    margin-left: -10px;
+    margin-right: auto;
+    width: auto;
+    width: 120%;
+    margin-top: -56px;
+}
+
+a#btn_tonightshow:hover {
+
+}
+
+a#btn_instagram {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    border: 2px solid #000;
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+    text-decoration:none;
+    font-size:20px;
+}
+a#btn_instagram:hover {
+    border: 50px;
+    color:white;
+    background: linear-gradient(to right, #f5b0e4 0%, #fda27e 51%, #f8d574 100%);
+    
+}
+
+
+
+
