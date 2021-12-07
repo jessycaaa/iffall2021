@@ -31,6 +31,7 @@ ul {
     margin-top: 30px; 
     margin-bottom: 100px;
 }
+
 /* Navigation Bar */
 .main-nav {
     displaY: flex;
@@ -75,6 +76,10 @@ ul {
 
 .btn:hover {
     opacity: 0.9;
+}
+
+.click {
+    border-bottom: 1.7px solid rgb(105, 60, 25);
 }
 
 /* Home Cover image */
@@ -181,7 +186,7 @@ ul {
 
 .text {
     color: white;
-    font-size: 10px;
+    font-size: 12.5px;
     position: absolute;
     margin-top: 10px; 
     top: 45%;
@@ -201,17 +206,26 @@ ul {
     margin-left: 45px;
 }
 
+.press {
+    opacity: 0%;
+}
 
 @media(max-width: 800px) {
     .gallery-cards {
         grid-template-columns: 1fr 1fr;
     }
+
 }
 
 
 @media(max-width: 500px) {
     .gallery-cards {
         grid-template-columns: 1fr;
+    }
+    .press {
+        opacity: 100%;
+        font-size: 14px;
+        margin-top: 20px;
     }
 }
 

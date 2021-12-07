@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(221, 206, 189);
+    color: rgb(105, 60, 25);
+    font-size: 18.5px;
+    line-height: 1.5;
+}
+
+a {
+    color: rgb(105, 60, 25);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.break {
+    margin-top: 30px; 
+    margin-bottom: 100px;
+}
+
+/* Navigation Bar */
+.main-nav {
+    displaY: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0 10px; 
+}
+.main-nav ul li a {
+    padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 1.7px solid rgb(105, 60, 25);
+}
+
+.aim-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    border:1.7px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.click {
+    border-bottom: 1.7px solid rgb(105, 60, 25);
+}
+
+/* Home Cover image */
+.cover-image {
+    width: 100%;
+    height: 500px; 
+    background: url('imgs/cover-image.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.ag {
+    width: 70%;
+}
+
+.home-p {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Gallery */
+
+.gallery-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 20px;
+}
+.gallery-cards img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.gallery-cards h3 {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+.gallery-text {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gallery-logo {
+    opacity: 50%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.gallery-title {
+    font-size: 25px;
+    opacity: 100%;
+    transition: all .8s;
+}
+.gallery-title:hover {
+    letter-spacing: 10px;
+}
+
+/* GALLERY OVERLAY  */
+
+.overlay-container {
+    position: relative;
+    /* width: 50%; */
+}
+/* .overlay-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+} */
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    height: 69%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 5px;
+    transition: .5s ease;
+    background-color: rgb(105, 60, 25);
+}
+.overlay-container:hover .overlay {
+    opacity: 0.75;
+}
+
+.text {
+    color: white;
+    font-size: 12.5px;
+    position: absolute;
+    margin-top: 10px; 
+    top: 45%;
+    left: 50%; 
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+/* Footer */
+.footer {
+    color: rgb(105, 60, 25);
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 35px 0;
+    margin-left: 45px;
+}
+
+.press {
+    opacity: 0%;
+}
+
+@media(max-width: 800px) {
+    .gallery-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media(max-width: 500px) {
+    .gallery-cards {
+        grid-template-columns: 1fr;
+    }
+    .press {
+        opacity: 100%;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+/* BIOGRAPHY */
+
+.biography-title {
+    margin-top: 40px;
+    font-size: 35px;
+    opacity: 100%;
+    transition: all .8s;
+}
+
+.biography-title:hover {
+    letter-spacing: 10px;
+}
+
+.biography-img {
+    width: 100%;
+}
+
